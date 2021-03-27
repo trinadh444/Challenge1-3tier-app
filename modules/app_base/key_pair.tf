@@ -1,0 +1,5 @@
+resource "aws_key_pair" "app3tier_key" {
+  key_name = "terraform_key009"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrGy8hjoYKSV34jr4l6CMzIZFW7WTQgY4PzAVY1oZPLgMiJ/z0xkDb36MRrBndybiwAwEZEvri3rJEWPBQIsRLZ9TI6njCKhHvXkboyEiCilx+veyeGd/318/JRTozAMRRFGoBAT6pKptjeMHnMAb48Tbinm9pfkaxfJuUEzaIxiPIHgx7O1obIw2340QQa/ZBfcPT05Zdo5dJhZ4Q6WNVinVKPbWA/D+xz4MxIn50wnK9I+wUIxQgvJL4TJ9qqIms4cA/+X0zsonV9dQ+/tRAxG37xuPF3nwO0VNI3ASpimlkh5yqu6CUHOwK+FwjebDCakeSi+N7WoQi3K0w65GD cscmws\vvangala4@IN-5CG1042GRK"
+}
+
