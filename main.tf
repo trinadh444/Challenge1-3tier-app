@@ -23,12 +23,12 @@ terraform {
  key = "global/state/terraform.tfstate"
  }
 }
-module "network" {
+module "nw" {
   source = "./modules/nw"
 }
-module "app" {
+module "app-base" {
   source = "./modules/app-base"
 }
-module "database" {
+module "db" {
   source = "./modules/db"
 }
